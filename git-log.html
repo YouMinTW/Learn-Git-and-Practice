@@ -1,0 +1,8 @@
+git log
+git log --oneline --graph
+git log --oneline --author="ken"
+git log --oneline --author="ken\|Eddie" 查ken跟Eddie兩個人的commit紀錄
+git log --oneline --grep="wtf" 查commit訊息有符合wtf字樣的內容
+git log --oneline -S "Ruby" 檔案內容中有提到"Ruby"的
+git log --oneline --since="9am" --until="12am" 查9~12點之間所有commit
+git log --oneline --since="9am" --until="12am" --after="2017-01" 查2017年1月之後，9~12點之間所有commit

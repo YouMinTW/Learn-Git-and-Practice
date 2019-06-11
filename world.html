@@ -1,1 +1,19 @@
-'Hello Git' 
+change file name or delete file
+
+Delete
+rm welcome.html
+git add welcome.html
+(4,5= git rm welcome.html)
+git commit  -m "delete the welcome page"
+
+git rm welcome.html --cached 只是不想被Git控管，從目錄刪掉
+
+Change Name
+'Hello Git'
+echo 'Hello Git' > hello.html
+git commit -a -m "Insert welcome page"
+mv hello.html world.html
+git add --all (會顯示renamed)
+(15,16= git mv hello.html world.html)
+
+
